@@ -1,0 +1,15 @@
+html,body,header{
+    height: 100%;
+}
+#intro{
+    height: 100%;
+    background: url(../img/mac.jpg) center no-repeat fixed / cover;
+}
+.top-nav-collapse{
+    background-color: #24355c;
+}
+@media (max-width: 768px){
+    .navbar:not(.top-nav-collapse){
+        background: #24355c;
+    }
+}
