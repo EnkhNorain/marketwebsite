@@ -12,4 +12,14 @@ html,body,header{
     .navbar:not(.top-nav-collapse){
         background: #24355c;
     }
+    #map-container-google-2{
+        display: none;
+    }
+}
+.nav-number{
+    font-size: 24px;
+}
+
+.nav-number a{
+    color: white;
 }
